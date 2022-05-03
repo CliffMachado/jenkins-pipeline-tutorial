@@ -45,6 +45,13 @@ git log
 ##to create a new branch
 git -b anybranchname
 git checkout abovebranchname
+git remote -v
+git branch -vv
+git ls -files
+## to restore modified file, modify content of a file in local
+git status
+git restore filename
+git status
 
 git clone url
 cd
