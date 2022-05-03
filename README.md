@@ -38,7 +38,9 @@ git push
 git fetch 
 git status
 git merge
-get checkout -b anyname
+git -b anyname
+git checkout abovename
+
 ```
 
 
