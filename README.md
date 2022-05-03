@@ -1,6 +1,26 @@
 # 20 commands of linux
 ```
-compgen -c
+ifconfig
+mkdir hi
+ls
+cd hi
+pwd
+nano hi.txt
+touch test.txt
+echo "hello" > file3.txt
+nano file4.txt
+cp hi.txt file6.txt
+mv hi.txt file7.txt
+df
+du
+rm file6.txt
+mkdir bye
+rmdir bye
+man pwd
+pwd --help
+locate hi.txt
+uname
+sudo apt-get update
 ```
 
 # git fetch push pull merge
@@ -66,14 +86,15 @@ echo "Are you a student %student%"
 # maven and ant
 ### maven
 ```
-SCM: GIT
+source code management: GIT
 enter git link for maven
 goals and options: clean compile test package
+
 output directory : C:\ProgramData\Jenkins\.jenkins\workspace\maventry\target
 ```
 ### ant
 ```
-SCM: GIT
+Source code management: GIT
 enter git link for ant
 build: invoke ant
 ant version :ant
@@ -179,6 +200,33 @@ FInally update github repo
 ```
 
 # Puppet
+### Creating instances
+```
+Ubuntu 18.04 Free tier
+number of instances : 2
+Configure security Group : Type - All TCP, Source - Anywhere
+Create new key pair
+name it
+download key pair
+```
+
+### Generating PPK file
+```
+open putty gen
+load
+select pem file
+save private key
+```
+
+### Connecting Via putty
+```
++ssh
+go to auth
+select ppk file
+session - add ip
+open
+```
+
 ### Commands to run on puppet Master
 ```
 sudo apt-get update
