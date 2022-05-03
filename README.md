@@ -25,22 +25,29 @@ sudo apt-get update
 
 # git fetch push pull merge
 ```
-git init
-git clone url
-cd 
-git remote add origin url
 git config --global user.name "your_username"
 git config --global user.email "your_email_address@example.com"
-git pull
+git init
+##create doc file in local drive
 git add .
+git status
 git commit - m "comment"
 git push
-git fetch 
-git status
-git merge
-git -b anyname
-git checkout abovename
+git remote add origin url
+git push --set-upstream origin master
+##change to master branch in git hub repo and check if file is added
+## add a new file 
+git fetch
+git merge 
+## make another file 
+git pull
+git log
+##to create a new branch
+git -b anybranchname
+git checkout abovebranchname
 
+git clone url
+cd
 ```
 
 
